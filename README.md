@@ -19,7 +19,8 @@ El proyecto cuenta con un módulo capaz de detectar fugas de humo y/o gas que pu
 
 ## Materiales Requeridos
 
-- Módulos ESP32
+- Módulo ESP32
+- Módulos ESP8266
 - ESP32-CAM con cámara OV2640
 - Sensor de gas MQ2
 - Módulo celular GSM GPRS SIM800L V2.0 con antena
