@@ -191,12 +191,32 @@ El sensor MQ2 es utilizado para la detección de altos niveles de humo (represen
 
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/82488285/162796453-e7c4539d-65d9-4153-b45c-4db322df2c28.png" width="400">
+<img src="https://user-images.githubusercontent.com/82488285/164934247-c4da0bd2-d571-42d6-baca-6dcdc7e2347d.png" width="400">
 </p>
 
 El módulo GSM es utilizado para alertar a las autoridades en caso de emergencia mediante una llamada (o SMS) al 123 y/o a una persona de confianza. Las características de este módulo son las siguientes:
 
-
+* Este módulo trabaja con tarjetas de telefonía celular, por lo que cuentan con un código IMEI para su registro, pero debido a inconvenientes de fabricación en el mercado chino, están llegando con un IMEI diferente al descrito en la etiqueta. Por consiguiente se sugiere que al momento de instalar la Sim Card de telefonía celular, llamar a atención al cliente del operador elegido y por medio de un asesor solicitar el registro del IMEI original del módulo (obtenido por comandos AT) junto con el número de la Sim Card a usarse, para así evitar futuros bloqueos del módulo.
+* Es un dispositivo quad-band GSM/GPRS, trabaja en las frecuencias GSM850MHz, EGSM900MHz, DCS1800MHz y PCS1900MHz.
+* Permite añadir voz, texto, datos y SMS en un pequeño paquete. Esta versión cuenta con un conector uFL.
+* Se requiere un microcontrolador que permita la comunicación UART para controlar el módulo.
+* Voltaje de Operación: 3.4 V ~ 4.4 V DC.
+* Nivel Lógico de 3 V a 5 V.
+* Consumo de corriente (max): 500 mA.
+* Consumo de corriente (sleep): 0.7 mA.
+* Interfaz: Serial UART.
+* Quad-band 850/900/1800/1900MHz – se conectan a cualquier red mundial GSM con cualquier SIM 2G
+* Trabaja solo con tecnología 2G.
+* Envía y recibe mensajes SMS.
+* Envía y recibe datos GPRS (TCP/IP, HTTP, etc).
+* Tiene un receptor FM.
+* Es controlado por Comandos AT (3GPP TS 27.007, 27.005 y SIMCOM enhanced AT Commands).
+* Interfaz de comandos AT con detección “automática” de velocidad de transmisión.
+* Soporta A-GPS.
+* Datos GPRS: Velocidad máxima de transmisión 85.6 Kbps, Protocolo TCP/IP en chip, Codificacion: CS-1, CS-2, CS-3 y CS-4, Soporta USSD.
+* Soporta Reloj en tiempo real (RTC).
+* Velocidades de transmisión serial desde 1200bps hasta 115200bps.
+* Tamaño de la SIM: Micro SIM.
 
 ### *PIR HC-SR501*
 
