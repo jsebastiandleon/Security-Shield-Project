@@ -18,10 +18,9 @@ Por otro lado, según el Cuerpo Oficial de Bomberos de Bogotá, desde 2014 hasta
 
 Con el presente proyecto se busca mitigar lo más posible los casos de inseguridad doméstica debido a razones como hurtos o incendios. Por medio de este se busca que el usuario gestione la seguridad de su hogar mediante simples mensajes de texto en la aplicación Telegram, presentando la opción de realizar llamadas o SMS directamente a emergencias y/o a una perona de confianza. Los objetivos secundarios de este proyecto son:
 
-- Construir un prototipo sencillo capaz de emular un producto comercial que permita brindarle al usuario una interfaz simple, de fácil acceso y de operación intuitiva.
+- Construir un prototipo sencillo capaz de emular un producto comercial de un sistema de seguridad, que permita brindarle al usuario una interfaz simple, adaptable, de fácil acceso y de operación intuitiva.
 - Permitir conocer los datos que en este caso garantizan la seguridad del hogar (como el estado de las puertas, las lecturas del sensor de gas, etc) para que el usuario tenga un mejor conocimiento de la situación en tiempo real.
 - Permitir que el usuario valide las posibles anomalías presentadas en el hogar, ante una posible falsa alarma.
-
 
 
 ## Toda la información del proyecto realizado se encuentra en la sección [Wiki](https://github.com/jsebastiandleon/Security-Shield-Project/wiki).
