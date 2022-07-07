@@ -5,9 +5,9 @@ import utime
 import machine 
 
 #Configuracion de Telegram
-TOKEN = '5596407792:AAFey_P4G1gq7b4excdBUiCXGgILoHW449Q'
+TOKEN = 'Inserte el token del bot'
 bot = Bot(TOKEN)
-id=2005590886
+id=11111111
 
 #Configurando el SIM800L
 gsm = machine.UART(2, 115200)
