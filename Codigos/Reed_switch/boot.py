@@ -7,7 +7,7 @@ esp.osdebug(None)
 import gc
 gc.collect()
 
-def do_connect(SSID='Redmi 9',password='0e6aa3950274'):
+def do_connect(SSID='Nombre de la red',password='contraseña de la red'):
     global wlan
     wlan= network.WLAN(network.STA_IF)
     wlan.active(True)

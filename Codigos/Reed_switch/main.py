@@ -5,9 +5,9 @@ from utime import sleep
 from machine import Pin
 
 #Configuracion de Telegram
-TOKEN = '5596407792:AAFey_P4G1gq7b4excdBUiCXGgILoHW449Q'
+TOKEN = 'Inserte el token del bot'
 bot = Bot(TOKEN)
-id=2005590886
+id=11111111
 
 #Configuracion Reed switch
 reed = Pin(19, Pin.IN, Pin.PULL_UP)
