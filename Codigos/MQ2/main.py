@@ -7,9 +7,9 @@ from utime import sleep
 from machine import Pin, ADC, UART
 
 #Configuracion de Telegram
-TOKEN = '5596407792:AAFey_P4G1gq7b4excdBUiCXGgILoHW449Q'
+TOKEN = 'Inserte el token del bot'
 bot = Bot(TOKEN)
-id=2005590886
+id=11111111
 
 #Configurando MQ2
 pin = Pin(35, Pin.IN)     
@@ -21,11 +21,6 @@ sensor = MQ2(pinData = pin, baseVoltage = 3.3)
 def help(update):
     update.reply('Escibe gas para ver las lecturas de metano y humo \nEscribe cámara para tomar una foto y visualizarla \nEscribe puerta para ver el estado de la puerta \nEscribe 123 para llamar a emergencias')
 
-
-#@bot.add_command_handler('value')
-#def value(update):
-    #update.reply('El nivel de gas metano en este momento es de: {0}'.format(sensor.readMethane()) + ' ppm')
-    #update.reply('El nivel de humo en este momento es de: {0}'.format(sensor.readSmoke()) + ' ppm')
 
 @bot.add_message_handler('^gas|Gas|GAS$')
 def gas(update):
